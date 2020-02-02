@@ -1,0 +1,30 @@
+<!-- <h2 *ngIf="displayName; else elseBlock" >
+  hey we're displayed!!
+</h2>
+
+<ng-template #elseBlock>
+<h2>Name is hidden</h2>
+</ng-template> -->
+
+<!-- <div *ngIf="!displayName; then thenBlock; else elseBlock" ></div>
+
+<ng-template #thenBlock>
+  <h2>Code is Written</h2>
+</ng-template>
+
+<ng-template #elseBlock>
+  <h2>Code is hidden</h2>
+</ng-template> -->
+
+<!-- <input [(ngModel)]= "color" type="text">
+<br>
+<div [ngSwitch]="color">
+  <div *ngSwitchCase = "'red'">you picked a red color</div>
+  <div *ngSwitchCase = "'green'">you picked a green color</div>
+  <div *ngSwitchCase = "'yellow'">you picked a yellow color</div>
+  <div  *ngSwitchDefault>Pick again</div>
+</div> -->
+
+<div *ngFor="let item of names">
+  <h4>{{item}}</h4>
+</div>
